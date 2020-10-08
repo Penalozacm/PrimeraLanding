@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+/*Cabecera*/
+
+.cabecera{
+    height: 50px;
+    object-fit: cover;
+    background-color:white;
+    text-transform: uppercase;
+    padding: 10px;
+
+    /*Flex*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecera img{
+    height: 48px;
+    widows: 50px;
+    padding: 5px auto;
+}
+
+.cabecera nav{
+    align-self: flex-end;
+}
+
+.cabecera nav a{
+    color: #2dd8d3;
+    text-decoration: none;
+    padding: 5px;
+   
+}
+
+.cabecera button{
+    color: white;
+    background-color: #2dd8d3;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: transparent;
+    text-transform: uppercase;
+
+}
+
+/*Seccion Media*/
+
+.titlesection{
+    height: 300px;
+    background-image: url(./imagen/fondoheader.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Flex*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlesection h1, h3{
+    color: white;
+}
+
+.titlesection h1{
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.titlesection h3{
+    font-size: 25px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+.botones{
+    padding: 50px;
+}
+
+.botones .prueba{
+    padding:20px 80px;
+    color: white;
+    background-color: #a42cd3;
+    border: 2px solid;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.botones .vervideo{
+    margin: auto;
+    padding:20px 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 15px;
+}
+
+/*Seccion Central*/
+
+.centarl img{
+    display: inline-block
+}
+
+.central{
+    padding: 30px 200px;
+    background-color: #EBFCFA;
+    color: white;
+
+    /*Flex*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.central div{
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+}
+
+
+.twitter{
+    padding: 5px 10px 10px;
+    background-image: url(./imagen/fondeceleste.jpg);
+    
+    /*Flex*/
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.twitter img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.twitter button {
+    color:inherit;
+    border: 1px solid;
+    padding: 5px 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.monitoring{
+    padding: 5px 10px 10px;
+    background-image: url(./imagen/fondeceleste.jpg);
+    
+    /*Flex*/
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.monitoring h5 {
+    font-size: 25px;
+}
+
+.monitoring p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.monitoring ul li{
+  display: inline-block;
+  border: 1px solid transparent;
+  background-color: #a0afaf;
+  padding: 3px;
+  font-size: 13px;
+}
+
+.monitoring button{
+    color:inherit;
+    border: 1px solid;
+    padding: 5px 30px;
+    background-color: #43cf18;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.gracias{
+
+    width: 200px;
+    height: 150px;
+    padding: 5px 10px 10px;
+    background-image: url(./imagen/fondeceleste.jpg);
+    
+    
+    /*Flex*/
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.gracias h5{
+    font-size: 30px;
+    font-weight: bold;    
+}
+
+.gracias p{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.gracias button{
+    color:inherit;
+    border: 1px solid;
+    padding: 5px 15px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/*Ultima Seccion*/
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    text-transform: lowercase;
+    background-color: rgb(247, 245, 245);
+    font-family: 'Dancing Script', 'Times new Roman', cursive;
+    color: grey;
+}
+
+
+.caracteristicas{
+    padding: 20px 80px;
+    background-color:rgb(247, 245, 245);
+    /*Flex*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.caracteristicas img{
+    width: 200px;
+    height: 150px;
+    margin: 10px 0px;
+}
+
+.caracteristicas a{
+    font-size: 13px;
+}
+
+.explora{
+    width: 200px;
+    height: 600px;
+    margin: 10px;
+
+    /*Flex*/
+    display: inherit;
+    flex-direction: column;
+}
+
+.explora h6{
+    margin-bottom: 10px;
+    color: #2dd8d3;
+    font-size: 15px;
+}
+
+.explora a{
+    color:  orange;
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+    text-align: start;
+    margin: 15px 0;
+}
+
+.mejorhora{
+    width: 200px;
+    height: 600px;
+    margin: 10px;
+
+    /*Flex*/
+    display: inherit;
+    flex-direction: column;
+}
+
+.mejorhora h6{
+    margin-bottom: 10px;
+    color: #2dd8d3;
+    font-size: 15px;
+}
+
+.mejorhora a{
+    color:  orange;
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+    text-align: start;
+    margin: 15px 0;
+
+
+}
+
+.estadisticas{
+    width: 200px;
+    height: 600px;
+    margin: 10px;
+
+    /*Flex*/
+    display: inherit;
+    flex-direction: column;
+}
+
+.estadisticas h6{
+    margin-bottom: 10px;
+    color: #2dd8d3;
+    font-size: 15px;
+}
+
+.estadisticas a{
+    color:  orange;
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+    text-align: start;
+    margin: 15px 0;
+}
+
+.dashboard{
+    width: 200px;
+    height: 600px;
+    margin: 10px;
+
+    /*Flex*/
+    display: inherit;
+    flex-direction: column;
+}
+
+.dashboard h6{
+    margin-bottom: 10px;
+    color: #2dd8d3;
+    font-size: 15px;
+}
+
+.dashboard a{
+    color:  orange;
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+    text-align: start;
+    margin: 15px 0;
+}
