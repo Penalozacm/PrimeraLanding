@@ -49,9 +49,8 @@
 /*Seccion Media*/
 
 .titlesection{
-    height: 300px;
+    height: 250px;
     background-image: url(./imagen/fondoheader.jpg);
-    background-size: 300px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -79,7 +78,7 @@
 }
 
 .botones{
-    padding: 50px;
+    padding: 10px 20px;
 }
 
 .botones .prueba{
