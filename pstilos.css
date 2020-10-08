@@ -11,6 +11,7 @@
     background-color:white;
     text-transform: uppercase;
     padding: 10px;
+    font-size: 13px;
 
     /*Flex*/
     display: flex;
@@ -31,7 +32,7 @@
 .cabecera nav a{
     color: #2dd8d3;
     text-decoration: none;
-    padding: 5px;
+    padding: 3px;
    
 }
 
@@ -361,4 +362,9 @@ h2{
     border: transparent;
     text-align: start;
     margin: 15px 0;
+}
+
+.wraper{
+    width: 1000px;
+    margin: auto;
 }
